@@ -1,0 +1,125 @@
+.project-container {
+    padding: 100px 0 100px;
+    background-image: url("../../assets/Home/bg.png");
+
+
+    position: relative;
+    z-index: 0;
+    color: snow;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0 0;
+
+}
+
+.work {
+    border-radius: 10px;
+    margin: 0 50px 0 50px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.work:hover .layer {
+    height: 100%;
+
+}
+
+.work:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+.work img {
+    width: 100%;
+
+    display: block;
+    border-radius: 10px;
+    transition: trasnform 0.5s;
+
+}
+
+.layer {
+    height: 0;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #FF5823);
+    position: absolute;
+    border-radius: 10px;
+    left: 0;
+    bottom: 0px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    transition: height 0.5s;
+    transition: z-index 0.5s;
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    margin-top: -110px;
+
+}
+
+.btn-more {
+    display: flex;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px var(--dark-orange) solid;
+    border-radius: 6px;
+    padding: 14px 50px;
+    text-decoration: none;
+    color: #000;
+    transition: background 0.5s;
+}
+
+.btn-more:hover {
+    background: linear-gradient(#FE5F75, #FC9842);
+    color: #000;
+}
+
+.footer img {
+    max-width: 100%;
+    height: 130px;
+}
+
+.layer h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.layer a {
+    margin-top: 20px;
+    color: #FF5823;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1110px) {
+    .project-container {
+        flex-direction: column;
+
+    }
+
+    .work {
+        margin: 50px;
+    }
+}
