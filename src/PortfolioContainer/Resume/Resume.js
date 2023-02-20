@@ -74,8 +74,8 @@ export default function Resume(props) {
       <ResumeHeading
         heading={"ISTA NTIC RABAT, Morocco"}
         subHeading={"diploma Technician specialized in multimedia development"}
-        fromDate={"2018"}
-        toDate={"2020"}
+        fromDate={"2016"}
+        toDate={"2018"}
       />
 
       <ResumeHeading
@@ -114,7 +114,7 @@ export default function Resume(props) {
             heading={"Emotrad"}
             subHeading={"BACK END DEVELOPER"}
             fromDate={"2019-01"}
-            toDate={"2019-01"}
+            toDate={"2019-03"}
           />
 
           <span className="resume-description-text">
