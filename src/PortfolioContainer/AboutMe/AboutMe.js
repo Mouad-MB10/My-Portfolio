@@ -10,7 +10,7 @@ export default function AboutMe(props)  {
   };
     const fadeInSubscription = ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
     const SCREEN_CONSTANTS={
-        description:"Full Stack developer with a knack of building applications with utmost effeciency. Strong professional, I'm Mouad Bousallam From morocco. and currently a junior pursuing my studies",
+        description:"Full Stack developer with a knack of building applications with utmost effeciency. Strong professional, I'm Mouad Bousallam From morocco. and currently a junior pursuing my self-study",
         heighlights:{
             bullets:[
                 "Full Stack developement",
